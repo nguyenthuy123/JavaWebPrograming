@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package buoi3;
+package bai3;
 
 /**
  *
  * @author thuynguyen
  */
-public class Buoi3 {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Main {
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
-    
 }
