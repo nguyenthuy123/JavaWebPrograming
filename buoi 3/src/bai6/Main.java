@@ -1,4 +1,4 @@
-/*
+v/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -31,12 +31,12 @@ public class Main {
         }
         int tong = 0;
         for(int i=0; i<3; i++){         
-           tong = tong + matrix1[i];
+           tong = tong + matrix[i];
            System.out.println("Tổng hàng: " + tong);                  
         }
         int tong1 = 0;
         for(int j=0; j<3; j++) {         
-            tong1 = tong1 + matrix1[j];
+            tong1 = tong1 + matrix[j];
             System.out.println("Tổng cột: " + tong1);
         }         
         

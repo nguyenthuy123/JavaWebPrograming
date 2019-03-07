@@ -10,7 +10,7 @@ package bai7;
  * @author thuynguyen
  */
 import java.util.Scanner;
- static int nhap_Mang(int A[3][3]){
+ static Void nhapMang(int A[][]){
    for(int i=0; i<3; i++){
         for(int j=0; j<3; j++){
             A[3][3]=input.nextInt();
