@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.đemo.java;
+package com.java.demo;
 
 /**
  *
  * @author thuynguyen
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        Caculator c = new Caculator();
+        c.input();
+        c.add(1, 1);
+    }
 }
