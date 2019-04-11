@@ -12,7 +12,7 @@ package bai1;
 public class Main {
     public static void main(String[] args) {
          FileUtil file = new FileUtil();
-        file.folder("C:\\Users\\thuynguyen\\mytext.txt");
+        file.folder("C:\\Users\\thuynguyen\\Desktop");
         file.file("C:\\Users\\thuynguyen\\mytext.txt");
         file.filePicture("C:\\Users\\thuynguyen\\mytext.txt");
         file.fileWid("ext", "C:\\Users\\thuynguyen\\mytext.txt");
