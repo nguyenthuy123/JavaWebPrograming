@@ -4,37 +4,30 @@
  * and open the template in the editor.
  */
 package bai2;
-
-import java.io.File;
-import java.io.FileWriter;
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 
 /**
  *
  * @author thuynguyen
  */
 public class SimpleVim {
-    public void CreatFile(String link){
-       // Tạo file
-       File f = new File(link);
-       //ghi file và lưu file
-       if(f.exists()){
-           if(f.isFile()){
-             try{
-                FileWriter fw = new FileWriter(link);
-                fw.write("text");
-                fw.close();
-           }catch(Exception e){
-               System.out.println("e");
-                }
-            }else{
-               File[] listFiles = f.listFiles();
-               for(int i=0; i<listFiles.length; i++){
-                   System.out.println(listFiles[i].getName());
-               }
-           }
-       
-        }else{
-           return;
-       }
+    public static boolean TestFile(String data, String path){ 
+      try {
+          FileOutputStream fos = new FileOutputStream(path);
+          OutputStreamWriter osw = new OutputStreamWriter(fos,"C:\\Users\\thuynguyen\\mytext.txt");
+          BufferedWriter bw = new BufferedWriter(osw);
+          bw.write(data);
+          bw.newLine();
+          bw.close();
+          osw.close();
+          fos.close();
+          return true;
+      }catch(Exception e){
+          e.printStackTrace();
+          return false;
+      }
+      
     }
 }

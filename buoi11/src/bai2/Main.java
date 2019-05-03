@@ -9,9 +9,16 @@ package bai2;
  *
  * @author thuynguyen
  */
+
 public class Main {
     public static void main(String[] args) {
-    SimpleVim sv = new SimpleVim();
-    sv.CreatFile("C:\\Users\\thuynguyen\\mytext.txt");
+        String data = new String();
+        data = "text";
+        boolean kq = SimpleVim.TestFile(data, "C:\\Users\\thuynguyen\\mytext.txt");
+        if(kq == true){
+            System.out.println("Lưu file thành công");
+        }else{
+            System.out.println("File không được lưu");
+        }
     }
 }
