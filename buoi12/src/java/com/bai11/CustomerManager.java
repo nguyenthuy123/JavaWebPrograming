@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.com;
+package java.com.bai11;
 
 /**
  *
  * @author thuynguyen
  */
-class FileInputSteam {
+public class CustomerManager {
     
 }

@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.com;
+package java.com.bai11;
 
 /**
  *
  * @author thuynguyen
  */
-class Arraylist<T> {
+public class Customer {
 
-    void add(Task myTask) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }
